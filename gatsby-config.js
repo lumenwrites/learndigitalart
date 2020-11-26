@@ -64,7 +64,7 @@ module.exports = {
         background_color: `#f66314`,
         theme_color: `#3d454b`,
         display: `minimal-ui`,
-        icon: `static/logo.png`,
+        icon: `static/img/logo.png`,
         cache_busting_mode: 'none'
       },
     },
@@ -88,7 +88,7 @@ module.exports = {
       resolve: 'gatsby-plugin-webpack-bundle-analyzer',
       options: {
         analyzerPort: 3000,
-        disable: true \,
+        disable: true,
         production: false
       },
     },
