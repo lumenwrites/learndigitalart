@@ -1,0 +1,47 @@
+header {
+  background: $header-bg;
+  padding: 10px;
+
+  border-top: 2px solid #f66303;
+  .logo {
+    display: block;
+    margin: auto;
+    width: 208px;
+    text-align: center;
+
+    font-size: 22px;
+    color: $text;
+    //float: left;
+    
+    img, .logo-image {
+      width: 32px;
+      border-radius: 50%;
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+  .btn {
+    margin-left: 4px;
+  }
+
+  .dropdown .menu {
+      left: 4px;
+      top: calc(100% + 5px); // not sure why 5
+  }
+  @media print {
+    display: none;
+  }
+}
+
+.subnav {
+  background: $subnav-bg;
+  #file-input {
+    display: none;
+  }
+  svg {
+    color: $text-dim;
+    margin-right: 4px;
+    max-height: 16px;
+  }
+}
