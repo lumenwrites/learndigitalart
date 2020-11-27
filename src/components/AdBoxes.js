@@ -35,7 +35,7 @@ class SignUp extends Component {
 				<AdBox
 					title="Best free Digital Art Youtube Channels"
 					description="Discover the best youtube channels that will help you get better at digital art!"
-					href="https://playmirage.io"
+					href="/review/best-digital-art-youtube-channels"
 					image={youtubeChannels} />				
 			</div>
 		)
